@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="assets/js/processing-1.2.3.min.js"></script>
+	<script src="assets/js/table.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" href="assets/css/reset.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="assets/css/main.css" type="text/css" charset="utf-8">
+
+</head>
+
+<body>
+
+	<div id="header">
+		<h1 class="siteTitle"><a href="http://www.odopod.com"><img src="http://www.odopod.com/assets/gfx/odopod_logo.gif" alt="odopod" /></a></h1>
+		<h2 class="pageTitle">Odocommute</h1>
+	</div>
+
+	<div id="wrapper">
+		<canvas data-processing-sources="assets/pde/odopod_commute_03.pde assets/pde/Position.pde assets/pde/display.pde assets/pde/loadPositions.pde"></canvas>
+		<h2>About this visualization</h2>
+		<p>Assuming work begins at 10AM, what does everyone's morning commute look like? Here's one stab at it: What you're seeing is a simplified map of the Bay Area, with the starting points of various Odopod employees, flashing as they leave the house in the morning. Hover on the dots to reveal who they represent, click &amp; drag the bar graph to scrub through the timeline. In a future version, we might plug this in to Google Map's API and try to implement intelligent path-finding, or explore differentiation between transportation methods (such as drivers vs. walkers). For now though, I think it's a fun little diversion that lets us make some observations that we normally wouldn't be able to.</p>
+		<p><a href="http://www.odopod.com/blog/eyeo-festival/">Back to the blog post...</a>
+	</div>
+
+</body>
+</html>
